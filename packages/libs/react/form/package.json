@@ -1,0 +1,28 @@
+{
+  "name": "@ttungbmt/react.form",
+  "version": "0.0.1",
+  "license": "MIT",
+  "main": "dist/react.form.cjs.js",
+  "module": "dist/react.form.es.js",
+  "unpkg": "dist/react.form.umd.js",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "dev:lib": "yarn dev",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production",
+    "build:lib": "yarn build"
+  },
+  "dependencies": {
+    "bootstrap-datepicker": "^1.9.0",
+    "dependent-dropdown": "^1.4.9",
+    "downshift": "^5.0.6",
+    "jquery": "^3.4.1",
+    "lodash-es": "^4.17.15",
+    "react": "^16.13.1",
+    "react-bootstrap": "^1.0.0",
+    "react-hook-form": "^5.3.1",
+    "react-number-format": "^4.4.1",
+    "react-text-mask": "^5.4.3",
+    "use-select": "^0.0.4"
+  }
+}

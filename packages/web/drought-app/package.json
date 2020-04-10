@@ -1,0 +1,51 @@
+{
+  "name": "@project/drought-app",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@ttungbmt/geo": "^0.0.1",
+    "@ttungbmt/react.core": "^0.0.1",
+    "@ttungbmt/react.form": "^0.0.1",
+    "@ttungbmt/react.http": "^0.0.1",
+    "@ttungbmt/react.layout": "^0.0.1",
+    "@ttungbmt/redux-leaflet": "^0.0.1",
+    "@ttungbmt/redux.toolkit": "^0.0.1",
+    "@ttungbmt/utils": "^0.0.1",
+    "react-hot-loader": "^4.12.20",
+    "use-immer": "^0.4.0"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-app-rewired eject",
+    "tailwind": "tailwind build ./src/styles/tailwind-config.css -o ./src/styles/tailwind.css",
+    "build:cp": "react-app-rewired build && copy-files-from-to --mode production"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "copyFiles": [
+    {
+      "from": "build/**",
+      "to": "D:/PROGRAM/laragon/www/YII/public/projects/drought/app"
+    }
+  ],
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "postcss-cli": "^7.1.0",
+    "tailwindcss": "^1.2.0"
+  }
+}

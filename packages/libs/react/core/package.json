@@ -1,0 +1,24 @@
+{
+  "name": "@ttungbmt/react.core",
+  "version": "0.0.1",
+  "main": "src/index.js",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.13.0",
+    "@material-ui/core": "^4.9.9",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.48",
+    "@material-ui/pickers": "^3.2.10",
+    "@material-ui/styles": "^4.9.6",
+    "@ttungbmt/redux.toolkit": "^0.0.1",
+    "@ttungbmt/core": "^0.0.1",
+    "@ttungbmt/react.form": "^0.0.1",
+    "@ttungbmt/react.http": "^0.0.1",
+    "@ttungbmt/react.list": "^0.0.1",
+    "@ttungbmt/react.scripts": "^0.0.1",
+    "@ttungbmt/react.scrollbar": "^0.0.1",
+    "@ttungbmt/react.table": "^0.0.1",
+    "react-bootstrap": "^1.0.0",
+    "roboto-fontface": "^0.10.0",
+    "@emotion/styled": "^10.0.27"
+  }
+}

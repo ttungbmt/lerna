@@ -1,0 +1,25 @@
+{
+  "name": "@ttungbmt/react.layout",
+  "version": "0.0.1",
+  "main": "dist/redux.layout.cjs.js",
+  "module": "dist/redux.layout.es.js",
+  "unpkg": "dist/redux.layout.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "dev:lib": "yarn dev",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production",
+    "build:lib": "yarn build"
+  },
+  "dependencies": {
+    "@ttungbmt/react.ui.box": "^0.0.1",
+    "lodash-es": "^4.17.15",
+    "react": "^16.13.1",
+    "react-slot": "^0.1.2",
+    "react-spaces": "^0.1.24"
+  },
+  "devDependencies": {
+    "@ttungbmt/bundlers.rollup": "^0.0.1"
+  }
+}

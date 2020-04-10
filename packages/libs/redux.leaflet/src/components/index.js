@@ -1,0 +1,1 @@
+export WMSTileLayer from './layers/WMSTileLayer'

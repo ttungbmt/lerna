@@ -1,0 +1,20 @@
+{
+  "name": "@ttungbmt/leaflet.wms",
+  "version": "0.0.1",
+  "main": "dist/leaflet.wms.cjs.js",
+  "module": "dist/leaflet.wms.es.js",
+  "unpkg": "dist/leaflet.wms.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production"
+  },
+  "dependencies": {
+    "@ttungbmt/geo": "^0.0.1",
+    "leaflet": "^1.6.0",
+    "leaflet-boundary-canvas": "^1.0.0",
+    "leaflet.nontiledlayer": "^1.0.8",
+    "uniqid": "^5.2.0"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "name": "@ttungbmt/redux-leaflet",
+  "version": "0.0.1",
+  "main": "dist/redux-leaflet.cjs.js",
+  "module": "dist/redux-leaflet.es.js",
+  "unpkg": "dist/redux-leaflet.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "dev:lib": "yarn dev",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production",
+    "build:lib": "yarn build"
+  },
+  "dependencies": {
+    "@ttungbmt/leaflet.wms": "^0.0.1",
+    "leaflet": "^1.6.0",
+    "lodash-es": "^4.17.15",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-leaflet": "^2.6.3"
+  },
+  "devDependencies": {
+    "@ttungbmt/bundlers.rollup": "^0.0.1"
+  },
+  "files": [
+    "dist",
+    "src",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
+}

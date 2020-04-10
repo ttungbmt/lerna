@@ -1,0 +1,1 @@
+export const prod = !process.env.ROLLUP_WATCH

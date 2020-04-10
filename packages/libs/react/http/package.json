@@ -1,0 +1,26 @@
+{
+  "name": "@ttungbmt/react.http",
+  "version": "0.0.1",
+  "main": "dist/react.http.cjs.js",
+  "module": "dist/react.http.es.js",
+  "unpkg": "dist/react.http.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "dev:lib": "yarn dev",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production",
+    "build:lib": "yarn build"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "lodash-es": "^4.17.15",
+    "qs": "^6.9.3",
+    "react-query": "^1.2.1",
+    "rollup-plugin-async": "^1.2.0",
+    "validator": "^13.0.0"
+  },
+  "devDependencies": {
+    "@ttungbmt/bundlers.rollup": "^0.0.1"
+  }
+}

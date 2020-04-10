@@ -1,0 +1,22 @@
+{
+  "name": "@ttungbmt/utils",
+  "version": "0.0.1",
+  "main": "dist/utils.cjs.js",
+  "module": "dist/utils.es.js",
+  "unpkg": "dist/utils.umd.js",
+  "license": "MIT",
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -c -w",
+    "dev:lib": "yarn dev",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production",
+    "build:lib": "yarn build"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.15",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {
+    "@ttungbmt/bundlers.rollup": "^0.0.1"
+  }
+}
