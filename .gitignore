@@ -4,9 +4,4 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 yarn.lock
-/node_modules/
-/packages/apps/*/node_modules/
-/packages/bundlers/*/node_modules
-/packages/libs/*/node_modules
-/packages/libs/*/*/node_modules
-/packages/web/*/node_modules
+node_modules/
