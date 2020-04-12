@@ -1,0 +1,20 @@
+{
+  "name": "@ttungbmt/vuexy",
+  "version": "0.0.1",
+  "description": "Vuexy for Vue.js 2",
+  "main": "dist/vuexy.common.js",
+  "module": "dist/vuexy.esm.js",
+  "unpkg": "dist/vuexy.js",
+  "jsdelivr": "dist/vuexy.js",
+  "author": "Truong Thanh Tung",
+  "license": "MIT",
+  "sideEffects": false,
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "dev": "rollup -wm -c",
+    "build": "yarn clean && rollup -c --environment NODE_ENV:production"
+  },
+  "dependencies": {
+    "lodash-es": "^4.17.15"
+  }
+}

@@ -51,7 +51,7 @@ function FormMain() {
         <Box p={1}>
             <FormContext {...methods}>
                 <Form>
-                    <div>
+                   {/* <div>
                         <Badge title={`Khu vực`}/>
                         <Box>
                             <Field
@@ -69,12 +69,11 @@ function FormMain() {
                                    onChange={onTinh}
                             />
                         </Box>
-                    </div>
+                    </div>*/}
                     <div className="mt-2">
-                        <Badge title={`Quản lý hạn hán`}/>
+                        <Badge title={`CDI`}/>
                         <Box>
                             <Field
-                                label="Kết quả xử lý ảnh"
                                 name="ma_kq"
                                 as="select"
                                 options={data.results || []}

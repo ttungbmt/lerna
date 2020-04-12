@@ -1,5 +1,5 @@
 export { default as uniqid } from 'uniqid';
-import { get, isUndefined } from 'lodash-es';
+import { get, isUndefined, set } from 'lodash-es';
 
 function parseJSON(json) {
   var reviver = function reviver(key, value) {
@@ -38,5 +38,17 @@ function parseJSON(json) {
   return JSON.parse(json, reviver);
 }
 
-export { parseJSON };
+function setIf(data, condition, path, value) {
+  if (condition) set(data, path, value);
+}
+
+function setIfElse(data, condition, v1, v2) {
+  if (condition) {
+    set(data, path, v1);
+  } else {
+    set(data, path, v2);
+  }
+}
+
+export { parseJSON, setIf, setIfElse };
 //# sourceMappingURL=utils.es.js.map

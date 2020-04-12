@@ -26,6 +26,22 @@ import { prod } from './env'
 @rollup/plugin-node-resolve
 */
 
+export const plugins = {
+    svgr,
+    json,
+    url,
+    postcss,
+    vue,
+    replace,
+    resolve,
+    babel,
+    commonjs,
+    progress,
+    filesize,
+    livereload,
+    terser,
+}
+
 export default function getPlugins(params = {}) {
     const {external, alias, minify, hot} = params
 

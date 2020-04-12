@@ -275,7 +275,7 @@ function Field(_ref) {
       break;
   }
 
-  return /*#__PURE__*/React__default.createElement(reactBootstrap.Form.Group, null, /*#__PURE__*/React__default.createElement(reactBootstrap.Form.Label, null, label), /*#__PURE__*/React__default.createElement(Control, _extends({
+  return /*#__PURE__*/React__default.createElement(reactBootstrap.Form.Group, null, label && /*#__PURE__*/React__default.createElement(reactBootstrap.Form.Label, null, label), /*#__PURE__*/React__default.createElement(Control, _extends({
     register: register
   }, props, {
     as: as

@@ -26,7 +26,7 @@ function Field({children, label, as, ...props}) {
 
     return (
         <Form.Group>
-            <Form.Label>{label}</Form.Label>
+            {label && <Form.Label>{label}</Form.Label>}
             <Control register={register} {...props} as={as}>
                 {children}
             </Control>

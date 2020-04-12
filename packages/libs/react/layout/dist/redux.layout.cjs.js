@@ -98,6 +98,7 @@ function Brand(_ref2) {
       height: 30
     }
   })), /*#__PURE__*/React__default.createElement(Box, {
+    ml: 2,
     uppercase: true,
     color: "#0093dd",
     fontSize: 21,

@@ -270,7 +270,7 @@ function Field(_ref) {
       break;
   }
 
-  return /*#__PURE__*/React.createElement(Form.Group, null, /*#__PURE__*/React.createElement(Form.Label, null, label), /*#__PURE__*/React.createElement(Control, _extends({
+  return /*#__PURE__*/React.createElement(Form.Group, null, label && /*#__PURE__*/React.createElement(Form.Label, null, label), /*#__PURE__*/React.createElement(Control, _extends({
     register: register
   }, props, {
     as: as

@@ -44,6 +44,20 @@ function parseJSON(json) {
   return JSON.parse(json, reviver);
 }
 
+function setIf(data, condition, path, value) {
+  if (condition) lodashEs.set(data, path, value);
+}
+
+function setIfElse(data, condition, v1, v2) {
+  if (condition) {
+    lodashEs.set(data, path, v1);
+  } else {
+    lodashEs.set(data, path, v2);
+  }
+}
+
 exports.uniqid = uniqid;
 exports.parseJSON = parseJSON;
+exports.setIf = setIf;
+exports.setIfElse = setIfElse;
 //# sourceMappingURL=utils.cjs.js.map

@@ -47,7 +47,7 @@ function Brand({logo, title}){
     return (
         <Box flex height={1} itemsCenter>
             {logo && <Box mh={1}><img src={logo} alt="" style={{height: 30}}/></Box>}
-            <Box uppercase color="#0093dd" fontSize={21} fontWeight={700}>{title}</Box>
+            <Box ml={2} uppercase color="#0093dd" fontSize={21} fontWeight={700}>{title}</Box>
         </Box>
     )
 }
