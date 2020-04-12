@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/vuexy",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Vuexy for Vue.js 2",
   "main": "dist/vuexy.common.js",
   "module": "dist/vuexy.esm.js",

@@ -1,12 +1,12 @@
 {
   "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "0.0.1",
+  "version": "0.0.2",
   "packages": [
-      "packages/apps/*",
-      "packages/libs/*",
-	  "packages/libs/*/*",
-	  "packages/bundlers/*",
-	  "packages/web/*"
+    "packages/apps/*",
+    "packages/libs/*",
+    "packages/libs/*/*",
+    "packages/bundlers/*",
+    "packages/web/*"
   ]
 }

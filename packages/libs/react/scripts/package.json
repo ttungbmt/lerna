@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/react.scripts",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "src/index.js",
   "dependencies": {
     "@babel/plugin-proposal-export-default-from": "^7.8.3",

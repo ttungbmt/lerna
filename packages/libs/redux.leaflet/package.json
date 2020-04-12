@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/redux-leaflet",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/redux-leaflet.cjs.js",
   "module": "dist/redux-leaflet.es.js",
   "unpkg": "dist/redux-leaflet.umd.js",
@@ -13,7 +13,7 @@
     "build:lib": "yarn build"
   },
   "dependencies": {
-    "@ttungbmt/leaflet.wms": "^0.0.1",
+    "@ttungbmt/leaflet.wms": "^0.0.2",
     "leaflet": "^1.6.0",
     "lodash-es": "^4.17.15",
     "prop-types": "^15.7.2",
@@ -21,7 +21,7 @@
     "react-leaflet": "^2.6.3"
   },
   "devDependencies": {
-    "@ttungbmt/bundlers.rollup": "^0.0.1"
+    "@ttungbmt/bundlers.rollup": "^0.0.2"
   },
   "files": [
     "dist",

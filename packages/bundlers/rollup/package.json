@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/bundlers.rollup",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/bundlers.rollup.cjs.js",
   "module": "dist/bundlers.rollup.es.js",
   "license": "MIT",

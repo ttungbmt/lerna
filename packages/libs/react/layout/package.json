@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/react.layout",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/redux.layout.cjs.js",
   "module": "dist/redux.layout.es.js",
   "unpkg": "dist/redux.layout.umd.js",
@@ -13,13 +13,13 @@
     "build:lib": "yarn build"
   },
   "dependencies": {
-    "@ttungbmt/react.ui.box": "^0.0.1",
+    "@ttungbmt/react.ui.box": "^0.0.2",
     "lodash-es": "^4.17.15",
     "react": "^16.13.1",
     "react-slot": "^0.1.2",
     "react-spaces": "^0.1.24"
   },
   "devDependencies": {
-    "@ttungbmt/bundlers.rollup": "^0.0.1"
+    "@ttungbmt/bundlers.rollup": "^0.0.2"
   }
 }

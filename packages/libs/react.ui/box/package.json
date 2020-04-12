@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/react.ui.box",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/react.ui.box.cjs.js",
   "module": "dist/react.ui.box.es.js",
   "unpkg": "dist/react.ui.box.umd.js",
@@ -16,6 +16,6 @@
     "react": "^16.13.1"
   },
   "devDependencies": {
-    "@ttungbmt/bundlers.rollup": "^0.0.1"
+    "@ttungbmt/bundlers.rollup": "^0.0.2"
   }
 }

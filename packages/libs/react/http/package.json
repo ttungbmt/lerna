@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/react.http",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/react.http.cjs.js",
   "module": "dist/react.http.es.js",
   "unpkg": "dist/react.http.umd.js",
@@ -21,6 +21,6 @@
     "validator": "^13.0.0"
   },
   "devDependencies": {
-    "@ttungbmt/bundlers.rollup": "^0.0.1"
+    "@ttungbmt/bundlers.rollup": "^0.0.2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/utils",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/utils.cjs.js",
   "module": "dist/utils.es.js",
   "unpkg": "dist/utils.umd.js",
@@ -17,6 +17,6 @@
     "uniqid": "^5.2.0"
   },
   "devDependencies": {
-    "@ttungbmt/bundlers.rollup": "^0.0.1"
+    "@ttungbmt/bundlers.rollup": "^0.0.2"
   }
 }

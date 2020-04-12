@@ -1,6 +1,6 @@
 {
   "name": "@ttungbmt/leaflet.wms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "main": "dist/leaflet.wms.cjs.js",
   "module": "dist/leaflet.wms.es.js",
   "unpkg": "dist/leaflet.wms.umd.js",
@@ -11,7 +11,7 @@
     "build": "yarn clean && rollup -c --environment NODE_ENV:production"
   },
   "dependencies": {
-    "@ttungbmt/geo": "^0.0.1",
+    "@ttungbmt/geo": "^0.0.2",
     "leaflet": "^1.6.0",
     "leaflet-boundary-canvas": "^1.0.0",
     "leaflet.nontiledlayer": "^1.0.8",
